@@ -10,17 +10,40 @@
 @import url('./footer.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  /*font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  color: #242424;*/
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 20px;
+  /*background-color: #0e1823;*/
+}
+
+/*<----------768px--------->*/
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 32px;
+  }
+}
+
+/*<----------1158px--------->*/
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding: 32px 50px;
+  }
 }
