@@ -1,3 +1,49 @@
 .hero {
-  background-color: blue;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.container {
+}
+
+.hero-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  padding-top: 198px;
+  margin-bottom: 24px;
+}
+
+.hero-discr {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: center;
+  color: rgba(251, 251, 251, 0.7);
+  margin-bottom: 38px;
+}
+
+.hero-button {
+  display: block;
+  border-radius: 15px;
+  padding: 14px 32px;
+  width: 141px;
+  height: 46px;
+  background-color: #1b414b;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.hero-link {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
 }
