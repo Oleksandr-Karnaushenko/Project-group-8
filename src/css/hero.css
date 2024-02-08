@@ -1,6 +1,9 @@
 .hero {
 }
 
+.container {
+}
+
 .hero-title {
   font-weight: 500;
   font-size: 32px;
@@ -32,24 +35,41 @@
 }
 
 .hero-link {
-  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: #fbfbfb;
 }
-/*<----------375px--------->*/
-
-@media screen and (min-width: 375px) {
-}
 
 /*<----------768px--------->*/
 
 @media screen and (min-width: 768px) {
+  .hero-title {
+    font-weight: 500;
+    font-size: 70px;
+  }
+  .hero-discr {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 48px;
+  }
+  .hero-link {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+  .hero-button {
+    padding: 16px 40px;
+    width: 179px;
+    height: 52px;
+  }
 }
 
 /*<----------1158px--------->*/
 
 @media screen and (min-width: 1158px) {
+  .hero-title {
+    font-weight: 500;
+    font-size: 80px;
+  }
 }
