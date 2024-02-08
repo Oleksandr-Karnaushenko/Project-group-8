@@ -1,6 +1,6 @@
 .our-yachts-title {
   max-width: 319px;
-  margin-bottom: 40px;
+  margin: 0 auto 40px;
   color: #FBFBFB;
   font-weight: 500;
   font-size: 28px;
@@ -9,15 +9,24 @@
   text-align: center;
 }
 
-.our-yachts-card {
+.our-yachts-card-arrow {
   max-width: 334px;
 }
 
 .our-yachts-item {
   background-color: #FBFBFB;
   border-radius: 24px;
-  margin-bottom: 40px;
+  margin: 0 auto 40px;
   padding: 16px;
+}
+
+.our-yachts-card-anna {
+  display: none;
+}
+
+.our-yachts-card-benetti {
+  display: none;
+
 }
 
 .our-yachts-item-title-wrap {
@@ -87,7 +96,7 @@
 }
 
 .our-yachts-btn {
-  display: block;
+  display: inline-block;
   background-color: transparent;
   border: 1px solid rgba(251, 251, 251, 0.35);
   border-radius: 15px;
@@ -102,4 +111,79 @@
   line-height: 1.28571;
   letter-spacing: -0.02em;
   color: #fbfbfb;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.our-yachts-btn:hover,
+.our-yachts-btn:focus {
+  background-color: #fbfbfb;
+  color: #1b414b;
+}
+
+
+
+/* --------------------Tablet----------------- */
+@media screen and (min-width:768px) {
+
+  .our-yachts-cards {
+    display: flex;
+    gap: 32px;
+  }
+
+  .our-yachts-item {
+    width: calc((100% - 32px) / 2);
+    margin-bottom: 50px;
+  }
+
+  .our-yachts-card-benetti {
+    display: block;
+  }
+
+  .our-yachts-title {
+    max-width: 645px;
+    margin-bottom: 75px;
+    font-size: 48px;
+  }
+
+  .our-yachts-item-title {
+    font-size: 16px;
+    line-height: 1.2;
+    min-width: 147px;
+  }
+
+  .our-yachts-item-text {
+    font-size: 13px;
+    line-height: 1.18;
+  }
+
+  .our-yachts-btn {
+    padding: 16px 40px;
+    min-width: 179px;
+    height: 52px;
+    font-size: 18px;
+    line-height: 1.1;
+  }
+
+}
+
+
+/* --------------------Desktop----------------- */
+@media screen and (min-width: 1280px) {
+
+  .our-yachts-cards {
+    gap: 25px;
+  }
+
+  .our-yachts-card-anna {
+    display: block;
+  }
+
+  .our-yachts-item {
+    width: calc((100% - 50px) / 3);
+  }
+
+  .our-yachts-title {
+    max-width: 714px;
+  }
+
 }
