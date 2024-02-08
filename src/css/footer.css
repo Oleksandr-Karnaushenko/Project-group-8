@@ -1,11 +1,6 @@
-.footer {
-  min-width: 100%;
+.footer.container {
   display: flex;
   justify-content: center;
-  padding: 0 10px 0 10px;
-}
-
-.footer.container {
   padding: 0 10px;
 }
 
@@ -13,35 +8,34 @@
   background-color: #1b414b;
   border: none;
   border-radius: 24px 24px 0 0;
-  padding: 40px 30px 20px 30px;
-  min-width: 355px;
+  padding: 40px 30px 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.div-logo-nav-soc-m-footer {
+.logo-nav-icons-foot {
   display: flex;
   flex-direction: column;
   gap: 80px;
+  width: 100%;
 }
 
 .div-logo-nav-footer {
   min-width: 295px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 
 .logo-footer {
-  font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
   letter-spacing: -0.03em;
   color: #FBFBFB;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .logo-footer:active {
@@ -50,7 +44,6 @@
 
 .nav-footer-list {
   display: flex;
-  flex-direction: row;
   flex-wrap: nowrap;
   gap: 4px;
 }
@@ -59,7 +52,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Inter", sans-serif;
   font-size: 9px;
   font-weight: 500;
   line-height: 14px;
@@ -72,6 +64,7 @@
   width: 66px;
   height: 40px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .nav-footer-list-item:active {
@@ -88,16 +81,14 @@
 
 .cos-m-footer-list {
   display: flex;
-  flex-direction: row;
   flex-wrap: nowrap;
   gap: 8px;
 }
 
 .cos-m-footer-list-icon {
-  width: 24px;
-  height: 24px;
   fill: #FBFBFB;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .cos-m-footer-list-icon:active {
@@ -105,7 +96,6 @@
 }
 
 .footer-p {
-  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1;
@@ -118,15 +108,10 @@
 
 .div-footer-privacy {
   display: flex;
-  flex-direction: row;
   flex-wrap: nowrap;
   gap: 20px;
   align-items: center;
   justify-content: center;
-}
-
-.p-yacht-adv {
-  font-family: "Inter", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 14px;
@@ -135,14 +120,9 @@
 }
 
 .privacy-policy {
-  font-family: "Inter", sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 14px;
-  letter-spacing: 0.03em;
-  text-decoration: none;
   color: #56727a;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .privacy-policy:active {
@@ -152,7 +132,7 @@
 
 
 @media screen and (min-width: 768px) {
-  .footer {
+  .footer.container {
     padding: 0 16px 0 16px;
   }
 
@@ -161,7 +141,7 @@
     min-width: 748px;
   }
 
-  .div-logo-nav-soc-m-footer {
+  .logo-nav-icons-foot {
     display: flex;
     flex-direction: row;
     gap: 91px;
@@ -169,7 +149,6 @@
   }
 
   .div-logo-nav-footer {
-    min-width: 295px;
     display: flex;
     flex-direction: row;
     gap: 110px;
@@ -210,16 +189,15 @@
 
 
 @media screen and (min-width: 1280px) {
-  .footer {
+  .footer.container {
     padding: 0 25px 0 25px;
   }
 
   .footer-wrap {
-    padding: 50px 75px 20px 75px;
-    min-width: 1230px;
+    padding: 50px 75px 20px;
   }
 
-  .div-logo-nav-soc-m-footer {
+  .logo-nav-icons-foot {
     display: flex;
     flex-direction: row;
     gap: 311px;
@@ -227,31 +205,17 @@
   }
 
   .div-logo-nav-footer {
-    min-width: 295px;
-    display: flex;
-    flex-direction: row;
-    gap: 330px;
-  }
-
-  .logo-footer {
-    cursor: pointer;
+    flex-wrap: nowrap;
+    gap: 270px;
   }
 
   .logo-footer:hover {
     color: #E1E1E1;
   }
 
-  .nav-footer-list-item {
-    cursor: pointer;
-  }
-
   .nav-footer-list-item:hover {
     color: #1B414B;
     background-color: #FBFBFB;
-  }
-
-  .cos-m-footer-list-icon {
-    cursor: pointer;
   }
 
   .cos-m-footer-list-icon:hover {
@@ -260,10 +224,6 @@
 
   .footer-p {
     max-width: 693px;
-  }
-
-  .privacy-policy {
-    cursor: pointer;
   }
 
   .privacy-policy:hover {
@@ -278,7 +238,7 @@
     min-width: 1390px;
   }
 
-  .div-logo-nav-soc-m-footer {
+  .logo-nav-icons-foot {
     gap: 388px;
   }
 
