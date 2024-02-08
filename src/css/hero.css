@@ -41,9 +41,10 @@
   letter-spacing: -0.02em;
   color: #fbfbfb;
 }
-/*<----------375px--------->*/
 
-@media screen and (min-width: 375px) {
+/*<----------768px--------->*/
+
+@media screen and (min-width: 768px) {
   .hero-title {
     font-weight: 500;
     font-size: 70px;
@@ -64,16 +65,11 @@
   }
 }
 
-/*<----------768px--------->*/
+/*<----------1158px--------->*/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1158px) {
   .hero-title {
     font-weight: 500;
     font-size: 80px;
   }
-}
-
-/*<----------1158px--------->*/
-
-@media screen and (min-width: 1158px) {
 }
