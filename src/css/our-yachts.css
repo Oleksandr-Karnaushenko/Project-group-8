@@ -95,6 +95,11 @@
   padding-right: 16px;
 }
 
+
+.our-yachts-link {
+  text-align: center;
+}
+
 .our-yachts-btn {
   display: inline-block;
   background-color: transparent;
@@ -104,6 +109,7 @@
   min-width: 141px;
   height: 46px;
   margin: 0 auto;
+  cursor: pointer;
 
   font-family: inherit;
   font-weight: 500;
