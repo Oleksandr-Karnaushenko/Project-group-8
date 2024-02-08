@@ -1,3 +1,26 @@
-<section class="rent-yacht container">
-  <p>Rent yacht</p>
+<section id="rent-yacht" class="rent-yacht container">
+  <h2 class="rent-title">Rent a yacht now</h2>
+  <form class="rent-form">
+    <div class="rent-field">
+      <label for="user-name"></label>
+      <input type="text" name="user-name" class="rent-input" id="user-name" placeholder="Full Name"
+        pattern="[A-Za-z ]+">
+    </div>
+    <div class="rent-field">
+      <label for="user-email"></label>
+      <input type="email" name="user-email" class="rent-input" id="user-email" placeholder="Email"
+        pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">
+    </div>
+    <div class="rent-field">
+      <label for="user-tel"></label>
+      <input type="tel" name="user-tel" class="rent-input" id="user-tel" placeholder="Phone number"
+        pattern="\+\d{1,4}\d{9}">
+    </div>
+    <div class="rent-field">
+      <label for="user-comment"></label>
+      <textarea name="user-comment" class="rent-text" id="user-comment" placeholder="Comment"></textarea>
+    </div>
+    <button type="submit" class="form-send-btn">Send</button>
+  </form>
+
 </section>
