@@ -1,20 +1,45 @@
 <section class="advantages container">
-  <div>
+  <div class="adv-content">
     <h2 class="visually-hidden">advantages</h2>
-    <ol>
-      <li>Swimming and water sports: try your hand at water skiing</li>
-      <li>Fishing: try to catch your own dinner</li>
-      <li>
+    <ol class="adv-list">
+      <li class="adv-item">
+        Swimming and water sports: try your hand at water skiing
+      </li>
+      <li class="adv-item">Fishing: try to catch your own dinner</li>
+      <li class="adv-item">
         Sightseeing tours: take a shore or island tour, enjoy the views and
         sunsets from the water
       </li>
-      <li>
+      <li class="adv-item">
         Rest and relaxation: read a book or listen to music while enjoying the
         outdoor atmosphere.
       </li>
     </ol>
   </div>
-  <img src="" alt="" />
+  <picture>
+    <source
+      srcset="
+        ./img/advantages/desktop1.jpg 1x,
+        ./img/advantages/desktop2.jpg 2x
+      "
+      media="(min-width: 1280px)"
+    />
+    <source
+      srcset="./img/advantages/tablet1.jpg 1x, ./img/advantages/tablet2.jpg 2x"
+      media="(min-width: 768px)"
+    />
+    <source
+      srcset="./img/advantages/mob1.jpg 1x, ./img/advantages/mob1.jpg 2x"
+      media="(max-width: 767px)"
+    />
+    <img
+      src="./img/advantages/tablet1.jpg"
+      alt="picture"
+      width="704"
+      height="424"
+      class="adv-picture"
+    />
+  </picture>
 </section>
 
 <!-- через біфор + картинки зроб -->

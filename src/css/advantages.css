@@ -1,3 +1,58 @@
+/* -------------ADVANTAGES----------- */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .advantages {
-  background-color: yellow;
+}
+.container {
+}
+.adv-content {
+  padding: 80px 20px;
+  background-color: #1b414b;
+  border-radius: 24px;
+  margin-bottom: 20px;
+}
+.visually-hidden {
+}
+.adv-list {
+}
+.adv-item {
+}
+.adv-picture {
+  display: block;
+  border: none;
+  border-radius: 24px;
+}
+@media screen and (min-width: 768px) {
+  .adv-content {
+    padding: 90px 32px;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .adv-content {
+    padding: 90px 50px;
+    width: 716px;
+    margin-bottom: 0;
+  }
+  .advantages {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+  .adv-picture {
+    width: 432px;
+  }
 }
