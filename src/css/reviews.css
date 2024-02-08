@@ -12,6 +12,7 @@
   text-align: center;
   color: #fbfbfb;
 }
+
 .reviews-text {
   font-size: 12px;
   line-height: 1.16667;
@@ -59,4 +60,31 @@
 }
 .reviews-item:first-child {
   display: flex;
+}
+
+/* *<----------768px--------->*/
+@media screen and (min-width: 768px) {
+  .reviews-title {
+    font-size: 48px;
+  }
+  .reviews-text {
+    font-size: 14px;
+    line-height: 1.28571;
+    max-width: 571px;
+  }
+  .reviews-list {
+    display: flex;
+    gap: 32px;
+  }
+  .reviews-description {
+    margin-bottom: 75px;
+    align-items: center;
+  }
+  .reviews-item {
+    max-width: 336px;
+    width: calc((100% - 32px) / 2);
+  }
+  .reviews-item:nth-child(-n + 2) {
+    display: flex;
+  }
 }
