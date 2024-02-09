@@ -16,7 +16,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
     
-    <link rel="stylesheet" href="/Project-group-8/assets/index-11b11bf9.css">
+    <link rel="stylesheet" href="/Project-group-8/assets/index-c7e598b9.css">
   </head>
   <body>
     <div class="img"></div>
@@ -293,31 +293,46 @@
   <p>Advantages</p>
 </section>
 
-      <section id="rent-yacht" class="rent-yacht container">
-  <h2 class="rent-title">Rent a yacht now</h2>
-  <form class="rent-form">
-    <div class="rent-field">
-      <label for="user-name"></label>
-      <input type="text" name="user-name" class="rent-input" id="user-name" placeholder="Full Name"
-        pattern="[A-Za-z ]+">
+      <section id="rent-yacht" class="rent-yacht">
+  <div class="rent-yacht-wrap container">
+    <div class="rent-form-wrap">
+      <h2 class="rent-title">Rent a yacht now</h2>
+      <form class="rent-form">
+        <div class="rent-field">
+          <label for="user-name"></label>
+          <input type="text" name="user-name" class="rent-input" id="user-name" placeholder="Full Name"
+            pattern="[A-Za-z ]+">
+        </div>
+        <div class="rent-field">
+          <label for="user-email"></label>
+          <input type="email" name="user-email" class="rent-input" id="user-email" placeholder="Email"
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">
+        </div>
+        <div class="rent-field">
+          <label for="user-tel"></label>
+          <input type="tel" name="user-tel" class="rent-input" id="user-tel" placeholder="Phone number"
+            pattern="\+\d{1,4}\d{9}">
+        </div>
+        <div class="rent-field">
+          <label for="user-comment"></label>
+          <textarea name="user-comment" class="rent-text" id="user-comment" placeholder="Comment"></textarea>
+        </div>
+        <button type="submit" class="form-send-btn">Send</button>
+      </form>
     </div>
-    <div class="rent-field">
-      <label for="user-email"></label>
-      <input type="email" name="user-email" class="rent-input" id="user-email" placeholder="Email"
-        pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">
+    <div class="rent-photo-wrap">
+      <picture>
+        <source srcset="/Project-group-8/assets/rent-yacht-mob-44a15256.jpg 1x, /Project-group-8/assets/rent-yacht-mob-2x-ae229ed2.jpg 2x"
+          media="(max-width: 767px)" />
+        <source srcset="/Project-group-8/assets/rent-yacht-tab-2c6f3929.jpg 1x, /Project-group-8/assets/rent-yacht-tab-2x-65573eaf.jpg 2x"
+          media="(min-width: 768px)" />
+        <source srcset="/Project-group-8/assets/rent-yacht-deskt-b28b94f5.jpg 1x, /Project-group-8/assets/rent-yacht-deskt-2x-b11a1edd.jpg 2x"
+          media="(min-width: 1280px)" />
+        <img class="rent-yacht-photo" src="/Project-group-8/assets/rent-yacht-tab-2c6f3929.jpg" alt="Rent-yacht" width="704"
+          height="534">
+      </picture>
     </div>
-    <div class="rent-field">
-      <label for="user-tel"></label>
-      <input type="tel" name="user-tel" class="rent-input" id="user-tel" placeholder="Phone number"
-        pattern="\+\d{1,4}\d{9}">
-    </div>
-    <div class="rent-field">
-      <label for="user-comment"></label>
-      <textarea name="user-comment" class="rent-text" id="user-comment" placeholder="Comment"></textarea>
-    </div>
-    <button type="submit" class="form-send-btn">Send</button>
-  </form>
-
+  </div>
 </section>
       <section class="reviews">
   <div class="container">
