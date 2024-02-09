@@ -5,20 +5,17 @@
   height: 675px;
   background: #fbfbfb;
   border-radius: 24px;
-  display: flex;
-  flex-direction: column;
   position: relative;
   margin-bottom: 180px;
   margin-top: 121px;
 }
 .about-us-description {
   width: 100%;
-  padding-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
 }
 .about-us-title {
-  margin-bottom: 40px;
+  padding: 40px 20px;
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 28px;
@@ -54,6 +51,11 @@
 }
 .about-us-img {
 }
+/* @media screen and (max-width: 375px) {
+  .about-us-picture {
+    transform: translateX(380px);
+  }
+} */
 @media screen and (min-width: 768px) {
   .about-us-content {
     margin-top: 112px;
@@ -62,15 +64,14 @@
     margin-bottom: 426px;
   }
   .about-us-description {
-    padding-top: 50px;
     padding-left: 32px;
-    padding-right: 136px;
+
     display: flex;
     flex-direction: column;
     justify-content: left;
   }
   .about-us-title {
-    margin-bottom: 50px;
+    padding: 50px 136px 50px 32px;
     font-size: 48px;
   }
   .about-us-subtitle {
@@ -84,5 +85,29 @@
   }
   .about-us-picture {
     transform: translateY(481px);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-us-content {
+    display: flex;
+    gap: 189px;
+  }
+  .about-us-title {
+    min-width: 537px;
+    padding-left: 50px;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+  .about-us-description {
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-left: 0;
+  }
+  .about-us-subtitle {
+    width: 354px;
+  }
+  .about-us-text {
+    width: 354px;
   }
 }
