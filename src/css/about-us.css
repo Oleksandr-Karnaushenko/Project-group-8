@@ -1,41 +1,88 @@
 .about-us {
 }
 .about-us-content {
+  min-width: 335px;
+  height: 675px;
   background: #fbfbfb;
   border-radius: 24px;
-  width: 335px;
-  height: 675px;
-  padding-left: 20px;
-  padding-top: 40px;
-  padding-right: 20px;
   display: flex;
   flex-direction: column;
-  max-width: 320px;
+  position: relative;
+  margin-bottom: 180px;
+  margin-top: 121px;
+}
+.about-us-description {
+  width: 100%;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .about-us-title {
-  text-align: center;
+  margin-bottom: 40px;
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 28px;
-  line-height: 100%;
+  line-height: 1;
   letter-spacing: -0.02em;
   color: #1b414b;
 }
 .about-us-subtitle {
+  margin-bottom: 20px;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
-  line-height: 100%;
+  line-height: 1;
   letter-spacing: -0.02em;
   color: #1b414b;
 }
 .about-us-text {
+  display: block;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 12px;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: -0.02em;
   color: #040306;
+  opacity: 0.4;
+}
+
+.about-us-picture {
+  position: absolute;
+  top: 0;
+  transform: translateY(380px);
+  width: 100%;
 }
 .about-us-img {
+}
+@media screen and (min-width: 768px) {
+  .about-us-content {
+    margin-top: 112px;
+    min-width: 704px;
+    height: 675px;
+    margin-bottom: 426px;
+  }
+  .about-us-description {
+    padding-top: 50px;
+    padding-left: 32px;
+    padding-right: 136px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+  .about-us-title {
+    margin-bottom: 50px;
+    font-size: 48px;
+  }
+  .about-us-subtitle {
+    font-size: 23px;
+    width: 389px;
+  }
+  .about-us-text {
+    width: 389px;
+    font-size: 13px;
+    line-height: 1.15;
+  }
+  .about-us-picture {
+    transform: translateY(481px);
+  }
 }
