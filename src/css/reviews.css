@@ -1,3 +1,130 @@
 .reviews {
-  background-color: orangered;
+  padding: 20px 0;
+  max-width: 100%;
+}
+.reviews-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.reviews-description {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.reviews-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+}
+.reviews-text {
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  opacity: 0.4;
+}
+
+.reviews-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fbfbfb;
+  border-radius: 24px;
+}
+
+.reviews-foto {
+  padding: 32px 0 24px;
+}
+
+.reviews-name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #040306;
+  padding-bottom: 8px;
+}
+.reviews-item-text {
+  max-width: 303px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
+  padding-bottom: 32px;
+}
+
+.reviews-item {
+  display: none;
+}
+.reviews-item:first-child {
+  display: flex;
+}
+
+/* *<----------768px--------->*/
+@media screen and (min-width: 768px) {
+  .reviews {
+    padding: 75px 0;
+  }
+
+  .reviews-container {
+    gap: 75px;
+  }
+
+  .reviews-description {
+    align-items: center;
+  }
+
+  .reviews-title {
+    font-size: 48px;
+  }
+  .reviews-text {
+    font-size: 14px;
+    line-height: 1.28571;
+    max-width: 571px;
+  }
+  .reviews-list {
+    display: flex;
+    gap: 32px;
+  }
+
+  .reviews-item {
+    width: calc((100% - 32px) / 2);
+  }
+  .reviews-item:nth-child(-n + 2) {
+    display: flex;
+  }
+  .reviews-item-text {
+    max-width: 304px;
+  }
+}
+
+/*<----------1280px--------->*/
+
+@media screen and (min-width: 1280px) {
+  .reviews-description {
+    max-width: 854px;
+    margin: 0 auto;
+  }
+
+  .reviews-list {
+    gap: 26px;
+  }
+  .reviews-item {
+    display: flex;
+    width: calc((100% - 52px) / 3);
+  }
+
+  .reviews-item-text {
+    max-width: 320px;
+  }
+
+  .reviews-text-1 {
+    max-width: 293px;
+  }
 }
