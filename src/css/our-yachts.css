@@ -26,15 +26,6 @@
   display: none;
 }
 
-/* .our-yachts-card-anna {
-  display: none;
-}
-
-.our-yachts-card-benetti {
-  display: none;
-
-} */
-
 .our-yachts-item-title-wrap {
   margin: 32px 0;
   display: flex;
@@ -146,10 +137,6 @@
     margin-bottom: 50px;
   }
 
-  /* .our-yachts-card-benetti {
-    display: block;
-  } */
-
   .our-yachts-item:nth-child(2) {
     display: block;
   }
@@ -178,7 +165,6 @@
     font-size: 18px;
     line-height: 1.1;
   }
-
 }
 
 
@@ -188,10 +174,6 @@
   .our-yachts-cards {
     gap: 25px;
   }
-
-  /* .our-yachts-card-anna {
-    display: block;
-  } */
 
   .our-yachts-item:last-child {
     display: block;
