@@ -1,21 +1,20 @@
 .about-us {
 }
 .about-us-content {
-  min-width: 335px;
+}
+
+.about-us-descr-wrap {
+  padding: 40px 20px;
+  width: 100%;
+  border-radius: 24px;
   height: 675px;
   background: #fbfbfb;
-  border-radius: 24px;
-  position: relative;
-  margin-bottom: 180px;
-  margin-top: 121px;
+  width: 100%;
 }
 .about-us-description {
-  width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin-top: 40px;
 }
 .about-us-title {
-  padding: 40px 20px;
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 28px;
@@ -42,72 +41,63 @@
   color: #040306;
   opacity: 0.4;
 }
-
+.about-us-picture-wrap {
+  padding-bottom: 80px;
+  /* width: 100%; */
+}
 .about-us-picture {
-  position: absolute;
-  top: 0;
-  transform: translateY(380px);
-  width: 100%;
+  margin-top: -295px;
+  display: block;
 }
 .about-us-img {
+  width: 100%;
 }
-/* @media screen and (max-width: 375px) {
-  .about-us-picture {
-    transform: translateX(380px);
-  }
-} */
+
 @media screen and (min-width: 768px) {
   .about-us-content {
-    margin-top: 112px;
-    min-width: 704px;
-    height: 675px;
-    margin-bottom: 426px;
+  }
+  .about-us-descr-wrap {
+    padding: 50px 136px 50px 32px;
   }
   .about-us-description {
-    padding-left: 32px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
+    margin-top: 50px;
   }
   .about-us-title {
-    padding: 50px 136px 50px 32px;
     font-size: 48px;
   }
   .about-us-subtitle {
     font-size: 23px;
-    width: 389px;
   }
   .about-us-text {
-    width: 389px;
     font-size: 13px;
     line-height: 1.15;
   }
   .about-us-picture {
-    transform: translateY(481px);
+    padding-bottom: 70px;
+    margin-top: -194px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .about-us-content {
+  .about-us-descr-wrap {
+    padding: 50px;
     display: flex;
     gap: 189px;
   }
+  .about-us-picture {
+    margin-top: -315px;
+  }
+  .about-us-content {
+  }
   .about-us-title {
-    min-width: 537px;
-    padding-left: 50px;
-    padding-right: 0;
-    padding-bottom: 0;
   }
   .about-us-description {
-    padding-right: 50px;
-    padding-top: 50px;
-    padding-left: 0;
+    max-width: 354px;
+    margin-top: 0;
   }
+
   .about-us-subtitle {
-    width: 354px;
   }
   .about-us-text {
-    width: 354px;
   }
 }
