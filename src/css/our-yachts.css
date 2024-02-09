@@ -1,3 +1,8 @@
+.our-yachts {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .our-yachts-title {
   max-width: 319px;
   margin: 0 auto 40px;
@@ -122,6 +127,11 @@
 
 /* --------------------Tablet----------------- */
 @media screen and (min-width:768px) {
+
+  .our-yachts {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
 
   .our-yachts-cards {
     display: flex;
