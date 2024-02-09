@@ -1,18 +1,5 @@
 /* -------------ADVANTAGES----------- */
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 ol {
   margin: 0;
   padding: 0;
@@ -33,32 +20,23 @@ ol {
   border-radius: 24px;
   margin-bottom: 20px;
 }
-.visually-hidden {
-}
+
 .adv-list {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  list-style-position: inside;
+  position: relative;
 }
 
 .adv-item {
+  /* list-style-position: inside; */
   font-size: 12px;
   line-height: 1.16667;
   letter-spacing: -0.02em;
   color: #fbfbfb;
   opacity: 0.8;
-  list-style-position: inside;
   position: relative;
-}
-.adv-item::marker {
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 1;
-  letter-spacing: -0.05em;
-  content: '0' counter(list-item) '';
-  top: -38px;
-  position: absolute;
-  transform: translateY(-50%);
 }
 .adv-item::before {
   content: '';
@@ -70,6 +48,17 @@ ol {
   background: rgba(251, 251, 251, 0.1);
   transform: translateY(-50%);
 }
+
+/* .adv-item::marker {
+  content: '0' counter(list-item) '';
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  top: -38px;
+  position: absolute;
+  transform: translateY(-50%);
+} */
 
 .adv-picture {
   display: block;
@@ -85,13 +74,11 @@ ol {
   }
   .adv-list {
     flex-direction: unset;
-
     gap: 44px 32px;
     flex-wrap: wrap;
   }
   .adv-item {
     width: calc((100% - 32px) / 2);
-
     font-size: 13px;
     line-height: 1.15;
   }
@@ -99,15 +86,13 @@ ol {
 @media screen and (min-width: 1280px) {
   .adv-content {
     padding: 90px 50px;
-    width: 716px;
     margin-bottom: 0;
   }
-  .advantages {
+  .adv-container {
     display: flex;
-    flex-direction: row;
     gap: 32px;
   }
   .adv-picture {
-    width: 432px;
+    max-width: 432px;
   }
 }
