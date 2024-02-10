@@ -1,3 +1,56 @@
-<section class="advantages container">
-  <p>Advantages</p>
+<section class="advantages-section">
+  <div class="container adv-container">
+    <div class="adv-content">
+      <h2 class="visually-hidden">advantages</h2>
+      <ol class="adv-list" type="1">
+        <li class="adv-item">
+          <p class="adv-p">
+            Swimming and water sports: try your hand at water skiing
+          </p>
+        </li>
+        <li class="adv-item">
+          <p class="adv-p">Fishing: try to catch your own dinner</p>
+        </li>
+        <li class="adv-item">
+          <p class="adv-p">
+            Sightseeing tours: take a shore or island tour, enjoy the views and
+            sunsets from the water
+          </p>
+        </li>
+        <li class="adv-item">
+          <p class="adv-p">
+            Rest and relaxation: read a book or listen to music while enjoying
+            the outdoor atmosphere.
+          </p>
+        </li>
+      </ol>
+    </div>
+    <picture>
+      <source
+        srcset="
+          ./img/advantages/desktop1.jpg 1x,
+          ./img/advantages/desktop2.jpg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./img/advantages/tablet1.jpg 1x,
+          ./img/advantages/tablet2.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="./img/advantages/mob1.jpg 1x, ./img/advantages/mob1.jpg 2x"
+        media="(max-width: 767px)"
+      />
+      <img
+        src="./img/advantages/tablet1.jpg"
+        alt="picture"
+        width="704"
+        height="424"
+        class="adv-picture"
+      />
+    </picture>
+  </div>
 </section>
