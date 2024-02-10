@@ -111,9 +111,9 @@ body {
 
 /*<----------1x80px--------->*/
 
-@media screen and (min-width: 1x80px) {
+@media screen and (min-width: 1280px) {
   .container {
-    max-width: 1x80px;
+    max-width: 1280px;
     padding: 0 50px;
   }
   .bg-image {
