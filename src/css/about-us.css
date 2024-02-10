@@ -1,21 +1,18 @@
-.about-us {
-}
-.about-us-content {
-}
-
 .about-us-descr-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
   padding: 40px 20px;
-  width: 100%;
   border-radius: 24px;
   height: 675px;
   background: #fbfbfb;
-  width: 100%;
 }
 .about-us-description {
-  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .about-us-title {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 28px;
   line-height: 1;
@@ -23,8 +20,6 @@
   color: #1b414b;
 }
 .about-us-subtitle {
-  margin-bottom: 20px;
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
   line-height: 1;
@@ -32,8 +27,6 @@
   color: #1b414b;
 }
 .about-us-text {
-  display: block;
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -42,11 +35,10 @@
   opacity: 0.4;
 }
 .about-us-picture-wrap {
-  padding-bottom: 80px;
-  /* width: 100%; */
+  padding-bottom: 40px;
+  margin-top: -295px;
 }
 .about-us-picture {
-  margin-top: -295px;
   display: block;
 }
 .about-us-img {
@@ -54,16 +46,16 @@
 }
 
 @media screen and (min-width: 768px) {
-  .about-us-content {
-  }
   .about-us-descr-wrap {
-    padding: 50px 136px 50px 32px;
+    padding: 50px;
+    gap: 50px;
   }
   .about-us-description {
-    margin-top: 50px;
+    max-width: 389px;
   }
   .about-us-title {
     font-size: 48px;
+    max-width: 536px;
   }
   .about-us-subtitle {
     font-size: 23px;
@@ -72,32 +64,22 @@
     font-size: 13px;
     line-height: 1.15;
   }
-  .about-us-picture {
-    padding-bottom: 70px;
+
+  .about-us-picture-wrap {
     margin-top: -194px;
+    padding-bottom: 75px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .about-us-descr-wrap {
-    padding: 50px;
-    display: flex;
+    flex-direction: row;
     gap: 189px;
   }
   .about-us-picture {
     margin-top: -315px;
   }
-  .about-us-content {
-  }
-  .about-us-title {
-  }
   .about-us-description {
     max-width: 354px;
-    margin-top: 0;
-  }
-
-  .about-us-subtitle {
-  }
-  .about-us-text {
   }
 }
