@@ -6,17 +6,17 @@
         <div class="rent-field">
           <label for="user-name"></label>
           <input type="text" name="user-name" class="rent-input" id="user-name" placeholder="Full Name"
-            pattern="[A-Za-z ]+">
+            pattern="[A-Za-z ]+" required />
         </div>
         <div class="rent-field">
           <label for="user-email"></label>
           <input type="email" name="user-email" class="rent-input" id="user-email" placeholder="Email"
-            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required />
         </div>
         <div class="rent-field">
           <label for="user-tel"></label>
           <input type="tel" name="user-tel" class="rent-input" id="user-tel" placeholder="Phone number"
-            pattern="\+\d{1,4}\d{9}">
+            pattern=^[+0-9\-() ]+$ required />
         </div>
         <div class="rent-field">
           <label for="user-comment"></label>
