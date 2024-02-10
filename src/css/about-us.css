@@ -36,6 +36,8 @@
   opacity: 0.4;
 }
 .about-us-picture-wrap {
+  display: flex;
+  justify-content: center;
   padding-bottom: 40px;
   margin-top: -295px;
 }
@@ -44,7 +46,7 @@
 
 @media screen and (min-width: 768px) {
   .about-us-descr-wrap {
-    padding: 50px;
+    padding: 50px 32px;
     gap: 50px;
   }
   .about-us-description {
