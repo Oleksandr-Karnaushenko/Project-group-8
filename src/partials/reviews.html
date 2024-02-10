@@ -1,5 +1,5 @@
 <section class="reviews">
-  <div class="container">
+  <div class="container reviews-container">
     <div class="reviews-description">
       <h2 class="reviews-title">
         YachtJet take pride in providing the best possible service and
@@ -13,14 +13,21 @@
     </div>
     <ul class="reviews-list">
       <li class="reviews-item">
-        <img
-          srcset="/img/reviews/john-min.png 1x, /img/reviews/john-2x-min.png 2x"
-          src="/img/reviews/john-min.png"
-          alt="John Wax"
-          width="56"
-          height="56"
-          class="reviews-foto"
-        />
+        <picture>
+          <source
+            srcset="
+              /img/reviews/john-min.webp    1x,
+              /img/reviews/john-2x-min.webp 2x
+            "
+          />
+          <img
+            src="/img/reviews/john-min.png"
+            alt="John Wax"
+            width="56"
+            height="56"
+            class="reviews-foto"
+          />
+        </picture>
 
         <h3 class="reviews-name">John Wax</h3>
         <p class="reviews-item-text">
@@ -30,17 +37,22 @@
         </p>
       </li>
       <li class="reviews-item">
-        <img
-          srcset="
-            /img/reviews/victoria-min.png    1x,
-            /img/reviews/victoria-2x-min.png 2x
-          "
-          src="/img/reviews/victoria-min.png "
-          alt="Victoria Romashenko"
-          width="56"
-          height="56"
-          class="reviews-foto"
-        />
+        <picture>
+          <source
+            srcset="
+              /img/reviews/victoria-min.webp    1x,
+              /img/reviews/victoria-2x-min.webp 2x
+            "
+          />
+          <img
+            src="/img/reviews/victoria-min.png "
+            alt="Victoria Romashenko"
+            width="56"
+            height="56"
+            class="reviews-foto"
+          />
+        </picture>
+
         <h3 class="reviews-name">Victoria Romashenko</h3>
         <p class="reviews-item-text">
           The Sunseeker Manhattan 66 was the perfect choice for our romantic
@@ -49,16 +61,24 @@
         </p>
       </li>
       <li class="reviews-item">
-        <img
-          srcset="/img/reviews/ihor-min.png 1x, /img/reviews/Ihor-2x-min.png 2x"
-          src="/img/reviews/ihor-min.png"
-          alt="Ihor Trachuk"
-          width="56"
-          height="56"
-          class="reviews-foto"
-        />
+        <picture>
+          <source
+            srcset="
+              /img/reviews/ihor-min.webp    1x,
+              /img/reviews/Ihor-2x-min.webp 2x
+            "
+          />
+          <img
+            src="/img/reviews/ihor-min.png"
+            alt="Ihor Trachuk"
+            width="56"
+            height="56"
+            class="reviews-foto"
+          />
+        </picture>
+
         <h3 class="reviews-name">Ihor Trachuk</h3>
-        <p class="reviews-item-text">
+        <p class="reviews-item-text reviews-text-1">
           The Azimut 80 was the most luxurious yacht I've ever been on. The
           cabins were spacious and elegant, and the outdoor areas were perfect
           for relaxing and entertaining. Worth every penny!
