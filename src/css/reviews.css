@@ -126,3 +126,18 @@
     max-width: 293px;
   }
 }
+/*<----------1440px--------->*/
+
+@media screen and (min-width: 1440px) {
+  .reviews-container {
+    max-width: 1240px;
+    margin: 0 auto;
+  }
+  .reviews-list {
+    gap: 32px;
+  }
+
+  .reviews-item {
+    padding: 32px 36px;
+  }
+}
