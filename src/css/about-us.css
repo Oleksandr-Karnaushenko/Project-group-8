@@ -1,3 +1,4 @@
+/* ----------about-us-------- */
 .about-us-descr-wrap {
   display: flex;
   flex-direction: column;
@@ -38,12 +39,8 @@
   padding-bottom: 40px;
   margin-top: -295px;
 }
-.about-us-picture {
-  display: block;
-}
-.about-us-img {
-  width: 100%;
-}
+
+/* ------media------- */
 
 @media screen and (min-width: 768px) {
   .about-us-descr-wrap {
@@ -76,10 +73,18 @@
     flex-direction: row;
     gap: 189px;
   }
-  .about-us-picture {
+  .about-us-picture-wrap {
     margin-top: -315px;
   }
   .about-us-description {
     max-width: 354px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .about-us-picture-wrap {
+    margin-top: -338px;
+  }
+  .about-us-descr-wrap {
+    gap: 299px;
   }
 }
