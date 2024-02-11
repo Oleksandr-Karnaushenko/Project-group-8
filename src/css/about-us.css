@@ -48,7 +48,7 @@
 
 @media screen and (max-width: 375px) {
   .about-us-picture-wrap {
-    margin-top: -245px;
+    margin-top: calc(80px - 100vw);
   }
 }
 
