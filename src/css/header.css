@@ -5,8 +5,7 @@
 .header {
   position: fixed;
   top: 20px;
-  left: 20px;
-  right: 20px;
+  width: 100%;
 }
 
 .header-container {
@@ -16,12 +15,6 @@
   border-radius: 8px;
   padding: 0 20px;
   margin: 0;
-}
-
-@media only screen and (max-width: 375px) {
-  .header-container {
-    max-width: 335px;
-  }
 }
 
 .header-nav {
@@ -39,19 +32,11 @@
   color: #1b414b;
   padding-top: 12px;
   padding-bottom: 12px;
-  /* margin-right: auto; */
-  /* padding: 12px 296px 12px 0; */
 }
 
 .nav-list {
   display: flex;
   gap: 4px;
-}
-
-@media only screen and (max-width: 767.98px) {
-  .nav-list {
-    display: none;
-  }
 }
 
 .nav-item {
@@ -85,15 +70,6 @@
 .header-socials {
   display: flex;
   gap: 8px;
-}
-
-@media only screen and (max-width: 767.98px) {
-  .header-socials {
-    display: none;
-  }
-}
-
-.header-socials-item {
 }
 
 .header-socials-link {
@@ -228,7 +204,7 @@
   display: flex;
   column-gap: 8px;
   margin-top: auto;
-  padding-top: 4px;
+  margin-bottom: 40px;
 }
 
 .mob-menu-socials-link {
@@ -260,8 +236,6 @@
 @media only screen and (min-width: 768px) {
   .header {
     top: 32px;
-    left: 32px;
-    right: 32px;
   }
   .header-container {
     padding: 0 28px;
@@ -276,10 +250,6 @@
 
 /* Desctop screen 1280px */
 @media only screen and (min-width: 1280px) {
-  .header {
-    left: 100px;
-    right: 100px;
-  }
   .header-container {
     padding: 0 30px;
   }
