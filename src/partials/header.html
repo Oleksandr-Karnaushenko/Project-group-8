@@ -5,8 +5,7 @@
       <nav class="header-nav">
         <a class="header-logo" href="index.html">yachtjet</a>
         <button
-          id="menu-btn"
-          class="menu-btn"
+          class="menu-btn js-open-menu"
           type="button"
           aria-label="Open menu button"
         >
@@ -25,6 +24,7 @@
             <a class="nav-link" href="#reviews">Reviews</a>
           </li>
         </ul>
+
         <!-- Header socials -->
         <ul class="header-socials">
           <li class="header-socials-item">
@@ -69,67 +69,65 @@
   </div>
 
   <!-- Mobile menu -->
-  <div class="container">
-    <div id="mobile-menu" class="mobile-menu">
-      <nav class="open-mob-menu">
-        <a class="header-logo" href="index.html">yachtjet</a>
-        <button id="menu-btn-close" class="menu-btn-close" type="button">
-          <svg class="menu-btn-icon-close" width="24" height="24">
-            <use href="/img/icons.svg#icon-icon_close"></use>
+  <div class="mobile-menu js-menu-container">
+    <nav class="open-mob-menu">
+      <a class="header-logo" href="index.html">yachtjet</a>
+      <button class="menu-btn-close js-close-menu" type="button">
+        <svg class="menu-btn-icon-close" width="24" height="24">
+          <use href="/img/icons.svg#icon-icon_close"></use>
+        </svg>
+      </button>
+    </nav>
+
+    <ul class="mobile-menu-list">
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link" href="#about-us">About</a>
+      </li>
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link" href="#our-yachts">Yachts</a>
+      </li>
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link" href="#reviews">Reviews</a>
+      </li>
+    </ul>
+
+    <ul class="mob-menu-socials">
+      <li class="mob-menu-socials-item">
+        <a
+          class="mob-menu-socials-link"
+          href="https://www.instagram.com/goitclub/"
+          target="_blank"
+          aria-label="Instagram site"
+        >
+          <svg class="mob-menu-socials-icon" width="19" height="19">
+            <use href="/img/icons.svg#icon-instagram"></use>
           </svg>
-        </button>
-      </nav>
-
-      <ul class="mobile-menu-list">
-        <li class="mobile-menu-item">
-          <a class="mobile-menu-link" href="">About</a>
-        </li>
-        <li class="mobile-menu-item">
-          <a class="mobile-menu-link" href="">Yachts</a>
-        </li>
-        <li class="mobile-menu-item">
-          <a class="mobile-menu-link" href="">Reviews</a>
-        </li>
-      </ul>
-
-      <ul class="mob-menu-socials">
-        <li class="mob-menu-socials-item">
-          <a
-            class="mob-menu-socials-link"
-            href="https://www.instagram.com/goitclub/"
-            target="_blank"
-            aria-label="Instagram site"
-          >
-            <svg class="mob-menu-socials-icon" width="19" height="19">
-              <use href="/img/icons.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="mob-menu-socials-item">
-          <a
-            class="mob-menu-socials-link"
-            href="https://www.youtube.com/c/GoIT"
-            target="_blank"
-            aria-label="Youtube site"
-          >
-            <svg class="mob-menu-socials-icon" width="20" height="20">
-              <use href="/img/icons.svg#icon-youtube"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="mob-menu-socials-item">
-          <a
-            class="mob-menu-socials-link"
-            href="https://www.facebook.com/goITclub/"
-            target="_blank"
-            aria-label="Facebook site"
-          >
-            <svg class="mob-menu-socials-icon" width="20" height="20">
-              <use href="/img/icons.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </div>
+        </a>
+      </li>
+      <li class="mob-menu-socials-item">
+        <a
+          class="mob-menu-socials-link"
+          href="https://www.youtube.com/c/GoIT"
+          target="_blank"
+          aria-label="Youtube site"
+        >
+          <svg class="mob-menu-socials-icon" width="20" height="20">
+            <use href="/img/icons.svg#icon-youtube"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="mob-menu-socials-item">
+        <a
+          class="mob-menu-socials-link"
+          href="https://www.facebook.com/goITclub/"
+          target="_blank"
+          aria-label="Facebook site"
+        >
+          <svg class="mob-menu-socials-icon" width="20" height="20">
+            <use href="/img/icons.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
   </div>
 </header>

@@ -1,7 +1,3 @@
-.mobile-menu.is-open {
-  overflow: hidden;
-}
-
 .header {
   position: fixed;
   top: 20px;
