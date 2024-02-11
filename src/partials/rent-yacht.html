@@ -3,25 +3,15 @@
     <div class="rent-form-wrap">
       <h2 class="rent-title">Rent a yacht now</h2>
       <form class="rent-form">
-        <div class="rent-field">
-          <label for="user-name"></label>
-          <input type="text" name="user-name" class="rent-input" id="user-name" placeholder="Full Name"
-            pattern="[A-Za-z ]+" required />
-        </div>
-        <div class="rent-field">
-          <label for="user-email"></label>
-          <input type="email" name="user-email" class="rent-input" id="user-email" placeholder="Email"
-            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required />
-        </div>
-        <div class="rent-field">
-          <label for="user-tel"></label>
-          <input type="tel" name="user-tel" class="rent-input" id="user-tel" placeholder="Phone number"
-            pattern="^[+0-9\-() ]+$" required />
-        </div>
-        <div class="rent-field">
-          <label for="user-comment"></label>
-          <textarea name="user-comment" class="rent-text" id="user-comment" placeholder="Comment"></textarea>
-        </div>
+        <label for="user-name" class="rent-field-input"><input type="text" name="user-name" class="rent-input"
+            id="user-name" placeholder="Full Name" pattern="[A-Za-z ]+" required /></label>
+        <label for="user-email" class="rent-field-input"><input type="email" name="user-email" class="rent-input"
+            id="user-email" placeholder="Email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+            required /></label>
+        <label for="user-tel" class="rent-field-input"><input type="tel" name="user-tel" class="rent-input"
+            id="user-tel" placeholder="Phone number" pattern="^[+0-9\-() ]+$" required /></label>
+        <label for="user-comment" class="rent-field-text"><textarea name="user-comment" class="rent-text"
+            id="user-comment" placeholder="Comment"></textarea></label>
         <button type="submit" class="form-send-btn">Send</button>
       </form>
     </div>
