@@ -47,9 +47,8 @@
 /* -----media----- */
 
 @media screen and (max-width: 375px) {
-  .about-us-descr-wrap {
-    margin: 0 auto;
-    max-width: 335px;
+  .about-us-picture-wrap {
+    margin-top: -245px;
   }
 }
 
