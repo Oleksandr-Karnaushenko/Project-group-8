@@ -1,19 +1,10 @@
 /* -------------ADVANTAGES----------- */
 
-ol {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 .advantages-section {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.container {
-}
-.adv-container {
-}
+
 .adv-content {
   padding: 80px 20px;
   background-color: #1b414b;
@@ -26,9 +17,6 @@ ol {
   flex-direction: column;
   gap: 40px;
   list-style-position: inside;
-}
-
-.adv-item {
 }
 
 .adv-p {
@@ -101,5 +89,10 @@ ol {
   }
   .adv-picture {
     max-width: 432px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .adv-picture {
+    max-width: 540px;
   }
 }
