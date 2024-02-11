@@ -1,4 +1,7 @@
 /* ----------about-us-------- */
+.about-us {
+  padding-bottom: 40px;
+}
 .about-us-descr-wrap {
   display: flex;
   flex-direction: column;
@@ -38,7 +41,6 @@
 .about-us-picture-wrap {
   display: flex;
   justify-content: center;
-  padding-bottom: 40px;
   margin-top: -295px;
 }
 
@@ -73,6 +75,8 @@
 
   .about-us-picture-wrap {
     margin-top: -194px;
+  }
+  .about-us {
     padding-bottom: 75px;
   }
 }
