@@ -6,10 +6,12 @@ let menuCloseBtn = document.getElementById('menu-btn-close'); /*close btn*/
 menuOpenBtn.addEventListener('click', function () {
   mobileMenu.classList.add('is-open');
   alert(mobileMenu.classList);
+  return true;
 });
 
 /* close menu */
 menuCloseBtn.addEventListener('click', function () {
   mobileMenu.classList.remove('is-open');
   alert(mobileMenu.classList);
+  return true;
 });
