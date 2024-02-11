@@ -75,7 +75,6 @@
   display: flex;
   flex-direction: column;
   gap: 6px;
-
   font-weight: 400;
   font-size: 14px;
   line-height: 1.18;
@@ -107,7 +106,6 @@
   height: 46px;
   margin: 0 auto;
   cursor: pointer;
-
   font-family: inherit;
   font-weight: 500;
   font-size: 14px;
