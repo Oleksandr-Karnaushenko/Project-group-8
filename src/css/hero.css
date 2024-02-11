@@ -11,6 +11,7 @@
   text-align: center;
   color: #fbfbfb;
   margin-bottom: 24px;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .hero-discr {
@@ -79,7 +80,7 @@
 
 /*<----------1158px--------->*/
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
   .hero {
     padding-top: 155px;
     padding-bottom: 180px;
