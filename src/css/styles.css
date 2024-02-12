@@ -1,5 +1,4 @@
 @import url('./reset.css');
-/*@import url('./vite-promo.css');*/
 @import url('./header.css');
 @import url('./hero.css');
 @import url('./about-us.css');
@@ -9,10 +8,34 @@
 @import url('./reviews.css');
 @import url('./footer.css');
 
+/* inter-300 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/inter-v13-latin-300.woff2') format('woff2');
+}
+/* inter-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/inter-v13-latin-regular.woff2') format('woff2');
+}
+/* inter-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/inter-v13-latin-500.woff2') format('woff2');
+}
+
 :root {
   font-family: 'Inter', sans-serif;
   color: white;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -52,6 +75,7 @@ body {
       url(/img/bg-images/bgi-mob-2x-min.webp);
   }
 }
+
 .container {
   max-width: 375px;
   margin: 0 auto;
@@ -103,7 +127,7 @@ body {
   }
 }
 
-/*<----------1x80px--------->*/
+/*<----------1280px--------->*/
 
 @media screen and (min-width: 1280px) {
   .container {
@@ -134,6 +158,8 @@ body {
     }
   }
 }
+
+/*<----------1440px--------->*/
 
 @media screen and (min-width: 1440px) {
   .container {
