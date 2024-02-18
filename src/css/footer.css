@@ -66,6 +66,16 @@
   cursor: pointer;
 }
 
+.nav-footer-list-link {
+  display: block;
+  position: relative;
+  font-size: 9px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px 24px;
+}
+
 .nav-footer-list-item:active {
   color: #1B414B;
   background-color: #FBFBFB;
@@ -220,16 +230,19 @@
     gap: 280px;
   }
 
-  .logo-footer:hover {
+  .logo-footer:hover,
+  .logo-footer:focus {
     color: #E1E1E1;
   }
 
-  .nav-footer-list-item:hover {
+  .nav-footer-list-item:hover,
+  .nav-footer-list-item:focus {
     color: #1B414B;
     background-color: #FBFBFB;
   }
 
-  .cos-m-footer-list-icon:hover {
+  .cos-m-footer-list-icon:hover,
+  .cos-m-footer-list-icon:focus {
     fill: #E1E1E1;
   }
 
@@ -237,7 +250,8 @@
     max-width: 693px;
   }
 
-  .privacy-policy:hover {
+  .privacy-policy:hover,
+  .privacy-policy:focus {
     color: #E1E1E1;
   }
 }
